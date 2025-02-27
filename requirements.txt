@@ -1,0 +1,19 @@
+## REST API Libs
+fastapi
+uvicorn
+
+## REST API Libs - Tools
+pydantic
+pydantic-settings
+python-multipart
+
+## Generative Model
+ollama ## Ollama - Local
+
+## Graphics
+matplotlib
+
+## TESTS LIBS ##
+
+## Request HTTP
+requests
