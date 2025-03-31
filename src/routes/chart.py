@@ -5,8 +5,8 @@ from fastapi import APIRouter, HTTPException
 from src.model.prompt import get_chart_prompt
 from src.model.generative import generate_chart_data 
 
-from src.chart.types import BarChart, PieChart, ChartDescription
-from src.chart.chart import plot_bar_chart, plot_pie_chart
+from src.chart.schemas.types import (BarChart, PieChart, ChartDescription)
+from src.chart.plot import plot_bar_chart, plot_pie_chart
 
 from src.routes.utils import convert_bytesio_to_base64
 
