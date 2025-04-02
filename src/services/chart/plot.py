@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 from io import BytesIO
 
-from src.chart.schemas.types import BarChart, PieChart
+from src.services.chart.schemas.types import BarChart, PieChart
 
 def plot_bar_chart(bar_chart_data: BarChart) -> BytesIO:
     plt.bar(bar_chart_data.categories, bar_chart_data.heights)
